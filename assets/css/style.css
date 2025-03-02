@@ -771,6 +771,7 @@ p {
 # Contact
 --------------------------------------------------------------*/
 #contact {
+  background: var(--color-background-alt); /* Same background as About section */
   height: auto;
   width: 100%;
 }
@@ -989,10 +990,13 @@ blockquote {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 #footer {
   background: var(--color-background-alt);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px; /* Reduced padding */
+  padding-bottom: 10px; /* Reduced padding */
 }
 
 #footer .socials-media {
@@ -1002,17 +1006,17 @@ blockquote {
 #footer .socials-media ul {
   display: inline-block;
   float: none;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0; /* Reduced margin */
 }
 
 #footer .socials-media ul li {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px; /* Reduced margin */
+  margin-right: 5px; /* Reduced margin */
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 18px; /* Reduced font size */
   color: var(--color-secondary);
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -1027,7 +1031,7 @@ blockquote {
 }
 
 #footer p {
-  font-size: 12px;
+  font-size: 10px; /* Reduced font size */
   letter-spacing: 0.1em;
   font-weight: 500;
   margin-top: 0;
@@ -1035,8 +1039,9 @@ blockquote {
 }
 
 .credits {
-  font-size: 13px;
+  font-size: 10px; /* Reduced font size */
 }
+
 
 /** Width between 1200x to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
